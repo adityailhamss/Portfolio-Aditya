@@ -1,9 +1,38 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { IoLocationOutline } from "react-icons/io5";
 import { FiPhone } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
+import { Button } from 'primereact/button';
+import { Toast } from 'primereact/toast';
+
+
 
 function Contact(){
+    const toast = useRef(null);
+
+    const showSuccess = () => {
+        toast.current.show({severity:'success', summary: 'Success', detail:'Message Content', life: 3000});
+    }
+
+    const showInfo = () => {
+        toast.current.show({severity:'info', summary: 'Info', detail:'Message Content', life: 3000});
+    }
+
+    const showWarn = () => {
+        toast.current.show({severity:'warn', summary: 'Warning', detail:'Message Content', life: 3000});
+    }
+
+    const showError = () => {
+        toast.current.show({severity:'error', summary: 'Error', detail:'Message Content', life: 3000});
+    }
+
+    const showSecondary = () => {
+        toast.current.show({ severity: 'secondary', summary: 'Secondary', detail: 'Message Content', life: 3000 });
+    };
+
+    const showContrast = () => {
+        toast.current.show({ severity: 'contrast', summary: 'Contrast', detail: 'Message Content', life: 3000 });
+    };
     return(
         <div className="py-8 bg-gray-800 min-h-screen px-10" id="contact" data-aos="fade-up">
             <div className="flex flex-col items-center px-10 gap-3">
@@ -51,7 +80,7 @@ function Contact(){
                             <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
                             <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your message..."></textarea>
                         </div>
-                        <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 w-full focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 block">Send</button>
+                        <button type="submit" onClick={showSuccess} class="text-white bg-blue-700 hover:bg-blue-800 w-full focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 block">Send</button>
                     </form>
                 </div>
             </div>

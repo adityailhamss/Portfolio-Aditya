@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Logo from '../assets/logo/logo.png';
+import adit from '../assets/logo/adit.png'
 import { IoMdDownload } from "react-icons/io";
 
 const navigation = [
@@ -62,7 +63,7 @@ export default function Navbar() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
                   <a href="/">
-                    <img className="h-5 w-auto" src={Logo} alt="Your Company" />
+                    <img className="h-20 w-auto" src={adit} alt="Your Company" />
                   </a>
                 </div>
                 <div className="hidden sm:block pt-2">
