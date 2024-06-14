@@ -1,0 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .backdrop-blur-md {
+    backdrop-filter: blur(10px);
+  }
