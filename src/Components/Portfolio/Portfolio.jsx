@@ -26,7 +26,7 @@ const portfolioData = [
     {
         title: 'Furniro',
         description: 'Furniro is a modern e-commerce website for a furniture shop. It features a user-friendly design, allowing customers to easily browse and purchase furniture. Built with React and styled using Tailwind CSS, Furniro offers a smooth and responsive shopping experience.',
-        livePreview: 'https://donatsu.netlify.app/',
+        livePreview: '',
         github: 'https://github.com/adityailhamss/furniro-shop',
         img: Furniro,
         icons: [<FaReact/>, <RiTailwindCssFill/>,]

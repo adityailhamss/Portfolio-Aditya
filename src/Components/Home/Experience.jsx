@@ -3,20 +3,15 @@ import React from 'react';
 const Experience = () => {
 
     const data = [
-        { year: "2022", 
+        { year: "Sep 2022 - Des 2022", 
           title: "Intern Web Developer", 
           company: "BAS-IT Studio",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.",
-        },
-        { year: "2022", 
-          title: "Intern Web Developer", 
-          company: "BAS-IT Studio",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.",
+          description: "As an Intern Web Developer at BAS-IT Studio, I contributed to the development of engaging and user-friendly websites under the guidance of experienced mentors. Leveraging my skills in HTML, CSS, JavaScript, ReactJS and TailwindCSS, I collaborated on various projects aimed at enhancing client online presence and functionality. Throughout my internship, I gained valuable hands-on experience in web development practices, honed my problem-solving abilities, and developed a keen eye for detail in delivering high-quality web solutions. This experience equipped me with practical skills and insights into front-end development, preparing me for a successful career in the field.",
         },
     ];
 
   return (
-    <div className="flex px-0 lg:px-10 bg-gray-900 min-h-screen" id="experience" data-aos="fade-up">
+    <div className="flex px-0 lg:px-10 bg-gray-900 " id="experience" data-aos="fade-up">
     <div className="text-white p-8 md:p-12">
       <h1 className="text-3xl md:text-4xl font-bold mb-6 md:mb-8">EXPERIENCE</h1>
       <div className="space-y-6 md:space-y-8">
