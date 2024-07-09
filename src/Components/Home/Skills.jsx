@@ -9,7 +9,9 @@ import rjs from "../../assets/logo/reactjs.png";
 import Mysql from "../../assets/logo/mysql.png";
 import Git from "../../assets/logo/git.png";
 import Oracle from "../../assets/logo/oracle.png";
-
+import Api from "../../assets/logo/api.png";
+import Figma from "../../assets/logo/figma.png";
+import Draw from "../../assets/logo/draw.png";
 
 function Skills() {
     const skills = [
@@ -23,6 +25,9 @@ function Skills() {
         { name: 'MySQL', img: Mysql },
         { name: 'Oracle', img: Oracle },
         { name: 'Git', img: Git },
+        { name: 'API', img: Api },
+        { name: 'Figma', img: Figma },
+        { name: 'Draw.io', img: Draw },
     ];
 
     return (

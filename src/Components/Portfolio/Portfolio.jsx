@@ -2,55 +2,82 @@ import React from "react";
 import Donatsu from "../../assets/image/donatsu.png";
 import Designxx from "../../assets/image/designxx.png";
 import Smarthome from "../../assets/image/smarthome.png";
-import { FaReact } from "react-icons/fa";
+import Furniro from "../../assets/image/furniro.png";
+import PortfolioWeb from "../../assets/image/portofolio.png";
+import Kalori from "../../assets/image/kaloritrack.png";
+import Writer from "../../assets/image/writer.png";
+import Uml from "../../assets/image/uml.png";
+import { FaReact, FaJava, FaPhp } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiStrapi } from "react-icons/si";
+import { SiStrapi, SiMysql } from "react-icons/si";
+import { DiCodeigniter } from "react-icons/di";
+import { TbApi } from "react-icons/tb";
+
 
 const portfolioData = [
     {
-        title: 'Noteworthy technology acquisitions 2021',
-        description: 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
+        title: 'Portfolio Website',
+        description: 'Portfolio website showcasing my projects, skills, and experience. Built using React and styled with Tailwind CSS. Highlighting my journey as a Front-End Developer, and includes detailed sections for my work, skills, and contact information.',
+        livePreview: 'https://donatsu.netlify.app/',
+        github: 'https://github.com/adityailhamss/Portfolio-Aditya',
+        img: PortfolioWeb,
+        icons: [<FaReact/>, <RiTailwindCssFill/>,]
+    },
+    {
+        title: 'Furniro',
+        description: 'Furniro is a modern e-commerce website for a furniture shop. It features a user-friendly design, allowing customers to easily browse and purchase furniture. Built with React and styled using Tailwind CSS, Furniro offers a smooth and responsive shopping experience.',
+        livePreview: 'https://donatsu.netlify.app/',
+        github: 'https://github.com/adityailhamss/furniro-shop',
+        img: Furniro,
+        icons: [<FaReact/>, <RiTailwindCssFill/>,]
+    },
+    {
+        title: 'Donatsu',
+        description: 'Donatsu is a stylish and responsive e-commerce website for a donut shop. It features an attractive design, allowing customers to easily browse and order donuts. Built with React, Tailwind CSS, and Strapi, Donatsu provides a seamless shopping experience with a smooth interface.',
         livePreview: 'https://donatsu.netlify.app/',
         github: 'https://github.com/adityailhamss/donatsu',
         img: Donatsu,
         icons: [<FaReact/>, <RiTailwindCssFill/>, <SiStrapi />]
     },
     {
-        title: 'Noteworthy technology acquisitions 2021',
-        description: 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
+        title: 'DesignXX',
+        description: 'DesignXX is a modern and responsive website for selling design services. It features a clean and professional design, making it easy for clients to explore and purchase design packages. Built with React and styled using Tailwind CSS, DesignXX offers a seamless and engaging user experience.',
         livePreview: 'https://designxx.netlify.app/',
         github: 'https://github.com/adityailhamss/designxx',
         img: Designxx,
         icons: [<FaReact/>, <RiTailwindCssFill/>]
     },
     {
-        title: 'Noteworthy technology acquisitions 2021',
-        description: 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
+        title: 'Smarthomes',
+        description: 'Smarthomes is a sleek and responsive e-commerce website for selling electronics. It features an intuitive design, making it easy for customers to browse and purchase electronic products. Built with React and styled using Tailwind CSS, Smarthomes offers a smooth and user-friendly shopping experience.',
         livePreview: 'https://smarthomess.netlify.app/',
         github: 'https://github.com/adityailhamss/SmartHomes',
         img: Smarthome,
         icons: [<FaReact/>, <RiTailwindCssFill/>]
     },
     {
-        title: 'Noteworthy technology acquisitions 2021',
-        description: 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
-        livePreview: 'https://smarthomess.netlify.app/',
-        github: 'https://github.com/adityailhamss/SmartHomes',
-        img: Smarthome
+        title: "Kalori Track's Design and Application",
+        description: 'Figma design and android applications KaloriTrack. KaloriTrack is an application to control daily calorie intake from the food consumed. Built in Java and PHP for backend with Codeigniter Framework. Utilize API FatSecret and API Clarifai',
+        livePreview: 'https://www.figma.com/design/kCaTlL36NohX1MX9yIC6Do/KaloriClarifaiAPI?node-id=0-1&t=X29gYpkKgGBBMZcT-0',
+        github: 'https://github.com/adityailhamss/kalori',
+        img: Kalori,
+        icons: [<FaJava />, <FaPhp />, <DiCodeigniter />, <SiMysql />, <TbApi />]
     },
     {
-        title: 'Noteworthy technology acquisitions 2021',
-        description: 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
-        livePreview: 'https://smarthomess.netlify.app/',
-        github: 'https://github.com/adityailhamss/SmartHomes',
-        img: Smarthome
+        title: 'Technical Writer',
+        description: 'Experienced in creating clear and concise technical documents and user guides. Specializing in transforming complex information into easy-to-understand content for end-users and developers.',
+        livePreview: 'https://drive.google.com/drive/folders/1XKkQEXoQ7296N8iyRLw8eZDXRH_ZwwPe?usp=drive_link',
+        github: 'https://drive.google.com/drive/folders/1XKkQEXoQ7296N8iyRLw8eZDXRH_ZwwPe?usp=drive_link',
+        img: Writer,
+        icons: '-',
     },
     {
-        title: 'Noteworthy technology acquisitions 2021',
-        description: 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
-        livePreview: 'https://smarthomess.netlify.app/',
-        github: 'https://github.com/adityailhamss/SmartHomes',
-        img: Smarthome
+        title: 'UML Diagram',
+        description: 'The UML Diagram Creator is a tool designed to simplify the process of creating Unified Modeling Language (UML) diagrams. It offers a user-friendly interface to help developers and designers visualize system architecture, design patterns, and interactions between components. The tool supports various types of UML diagrams, making it versatile for different project needs.',
+        livePreview: 'https://drive.google.com/drive/folders/1aB41ZPSHGe8g_GGAqS-jMb57TfwQn7fm?usp=sharing',
+        github: 'https://drive.google.com/drive/folders/1aB41ZPSHGe8g_GGAqS-jMb57TfwQn7fm?usp=sharing',
+        img: Uml,
+        icons: '-',
     },
 ];
 
@@ -61,7 +88,10 @@ function Portfolio() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {portfolioData.map((item, index) => (
                     <div key={index} className="max-w-sm bg-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 border-2 border-gray-400 hover:border-green-200">
-                        <a href={item.livePreview}>
+                        <a 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={item.livePreview}>
                             <img className="rounded-t-lg " src={item.img} alt={item.title} />
                         </a>
                         <div className="p-5 flex flex-col items-center">
