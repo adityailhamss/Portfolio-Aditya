@@ -1,9 +1,7 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { IoLocationOutline } from "react-icons/io5";
 import { FiPhone } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
-import { Button } from 'primereact/button';
-import { Toast } from 'primereact/toast';
 
 function Contact(){
     return(
