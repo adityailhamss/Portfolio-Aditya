@@ -18,7 +18,7 @@ const portfolioData = [
     {
         title: 'Portfolio Website',
         description: 'Portfolio website showcasing my projects, skills, and experience. Built using React and styled with Tailwind CSS. Highlighting my journey as a Front-End Developer, and includes detailed sections for my work, skills, and contact information.',
-        livePreview: 'https://donatsu.netlify.app/',
+        livePreview: 'https://aditya-app.netlify.app/',
         github: 'https://github.com/adityailhamss/Portfolio-Aditya',
         img: PortfolioWeb,
         icons: [<FaReact/>, <RiTailwindCssFill/>,]
@@ -26,7 +26,7 @@ const portfolioData = [
     {
         title: 'Furniro',
         description: 'Furniro is a modern e-commerce website for a furniture shop. It features a user-friendly design, allowing customers to easily browse and purchase furniture. Built with React and styled using Tailwind CSS, Furniro offers a smooth and responsive shopping experience.',
-        livePreview: '',
+        livePreview: 'https://furniro-shop.netlify.app',
         github: 'https://github.com/adityailhamss/furniro-shop',
         img: Furniro,
         icons: [<FaReact/>, <RiTailwindCssFill/>,]

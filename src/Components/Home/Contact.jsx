@@ -8,7 +8,7 @@ function Contact(){
         <div className="py-8 bg-gray-800 min-h-screen px-10" id="contact" data-aos="fade-up">
             <div className="flex flex-col items-center px-10 gap-3">
                 <h1 className="text-2xl lg:text-4xl font-bold">CONTACT US</h1>
-                <p className="text-sm lg:text-base text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
+                <p className="text-sm lg:text-base text-center">Have a question or want to get in touch? Feel free to reach out to us! Whether you're looking for support, partnership opportunities, or just want to say hello, we'd love to hear from you. Use the contact form below or reach us directly via email or phone. We aim to respond to all inquiries promptly. Your feedback is valuable to us!</p>
             </div>
             <div className="flex flex-col lg:flex-row justify-around py-12">
                 <div className="flex items-center mb-5 lg:mb-0">
