@@ -19,11 +19,7 @@ function classNames(...classes) {
 
 // Function to handle download PDF
 function handleDownloadPDF() {
-<<<<<<< HEAD
   window.open('https://drive.google.com/file/d/1CcEacSdqRlrQvNNnfZjuq9t78WeSk0vv/view?usp=sharing', '_blank');
-=======
-  window.open('https://drive.google.com/file/d/1Cqw-L_mxwn0swO0YfU2X20uyAZhvpgb2/view?usp=sharing', '_blank');
->>>>>>> cc0a733f2a5599f8b18c6e7f7ac964b72a50b000
 }
 
 export default function Navbar() {
